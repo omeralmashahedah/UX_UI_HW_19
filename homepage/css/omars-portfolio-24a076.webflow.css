@@ -1,0 +1,215 @@
+.body {
+  margin-left: 0px;
+  background-color: #4a260f;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.text-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  color: #a5674f;
+}
+
+.heading {
+  width: 1000px;
+  height: auto;
+  margin: 25px 0px 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #a5674f;
+  font-size: 90px;
+  line-height: 130px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 15px;
+}
+
+.image {
+  height: auto;
+  margin-top: -120px;
+  margin-left: 0px;
+  opacity: 0.2;
+  color: #333;
+}
+
+.navbar {
+  background-color: hsla(0, 0%, 86.7%, 0);
+}
+
+.nav-link {
+  display: block;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-2 {
+  display: inline-block;
+  margin-left: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: Didot, sans-serif;
+  color: #a5674f;
+  font-size: 30px;
+}
+
+.div-block {
+  position: relative;
+  top: 300px;
+}
+
+.text-block-3 {
+  position: static;
+  top: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  height: 30px;
+  margin-top: 275px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #a5674f;
+  font-size: 30px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-2 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.image-3 {
+  height: 120px;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 190px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.links {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 645px;
+  height: 30px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+.link-4 {
+  color: #a5674f;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 100px;
+  }
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../fonts/Didot-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Didot';
+  src: url('../fonts/Didot-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Didot';
+  src: url('../fonts/Didot-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Didot lt std';
+  src: url('../fonts/Didot-LT-Std-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Didot lt std';
+  src: url('../fonts/Didot-LT-Std-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

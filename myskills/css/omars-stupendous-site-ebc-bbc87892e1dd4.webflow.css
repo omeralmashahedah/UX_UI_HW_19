@@ -1,0 +1,287 @@
+.body {
+  background-color: #4a260f;
+  color: #fff;
+}
+
+.image-3 {
+  height: 120px;
+}
+
+.text-block {
+  font-size: 50px;
+}
+
+.text-block-2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #a5674f;
+  font-size: 80px;
+  line-height: 70px;
+  font-style: normal;
+  text-align: center;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-2 {
+  display: -ms-grid;
+  display: grid;
+  width: auto;
+  height: 290px;
+  margin-top: 70px;
+  margin-right: 120px;
+  margin-left: 120px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 2.75fr;
+  grid-template-columns: 2.75fr;
+  -ms-grid-rows: 229px;
+  grid-template-rows: 229px;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: #a5674f;
+  font-size: 42px;
+}
+
+.text-block-3 {
+  width: 900px;
+  margin-top: 20px;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #a5674f;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.div-block-3 {
+  width: 600px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  border-style: none;
+  border-width: 0px;
+  border-color: #fff;
+  border-radius: 7px;
+  background-color: #a5674f;
+  text-align: center;
+  text-transform: none;
+}
+
+.image-4 {
+  width: 390px;
+  height: 420px;
+}
+
+.text-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  color: #a5674f;
+}
+
+.text-block-5 {
+  position: static;
+  top: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  height: 30px;
+  margin-top: 275px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #a5674f;
+  font-size: 30px;
+}
+
+.image-2 {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.links {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 645px;
+  height: 30px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.link {
+  color: #a5674f;
+  text-decoration: none;
+}
+
+.link-2 {
+  color: #a5674f;
+  text-decoration: none;
+}
+
+.link-3 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-4 {
+  color: #a5674f;
+  text-decoration: none;
+}
+
+.div-block-5 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 459px;
+  grid-template-rows: 459px;
+}
+
+.text-block-6 {
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #a5674f;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.div-block-6 {
+  width: 1200px;
+}
+
+#w-node-_11e1b3c4-787f-fc6f-09b8-e89dae97f660-2a1c9a2c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_11e1b3c4-787f-fc6f-09b8-e89dae97f663-2a1c9a2c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_3d3c4789-9b63-85a3-4a0e-a7eebe87630c-2a1c9a2c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_3d3c4789-9b63-85a3-4a0e-a7eebe87630f-2a1c9a2c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-dcef7896-620d-9a62-1344-3046ea53d182-2a1c9a2c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-dcef7896-620d-9a62-1344-3046ea53d185-2a1c9a2c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
