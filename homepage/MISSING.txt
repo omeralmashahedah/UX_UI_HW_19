@@ -1,6 +1,5 @@
 The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
 
-fonts/Didot-Bold-Italic.ttf
 fonts/Didot-LT-Std-Bold.otf
 fonts/Didot-LT-Std-Italic.otf
 fonts/Didot-Medium.ttf

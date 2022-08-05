@@ -18,6 +18,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body{
+  position: relative;
+  top: -75%;
+}
+
 .w-icon-slider-right:before {
   content: "\e600";
 }
@@ -44,6 +50,23 @@
 }
 html {
   height: 100%;
+}
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 5%;
+  background-color: white;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.negative {
+  filter: invert(100%);
 }
 body {
   margin: 0;
@@ -895,17 +918,6 @@ textarea.w-select {
   border-width: 4px;
   margin-left: -4px;
 }
-
-.link-4, .link-3, .link-2{
-  color:#A5674F;
-  text-decoration: none;
-}
-.link{
-  color:#ffffff;
-  text-decoration: none;
-}
-
-
 .w-widget-twitter-count-shim.w--vertical .w-widget-twitter-count-inner {
   font-size: 18px;
   line-height: 22px;
